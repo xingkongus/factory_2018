@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/**
+  * @created: 2018.03
+  * @author: kidultyx
+  * @version: 1.2
+  * @desc: 后工坊三大中心板块
+  */
+
+.temporary {
+	margin : 60px auto 0 auto;
+	width: 80%;
+	height: 80px;
+}
+.temporary .turnapart {
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+.temporary .turnapart .apartment {
+	padding-left: 3%;
+	width: 30%;
+	height: 80px;
+	float: left;
+	font-family: '微软雅黑';
+	line-height: 80px;
+	color: rgb(114,136,162);
+	background-color: rgb(255,255,255);
+	background-image: url(../image/apart.png);
+	background-repeat: no-repeat;
+	background-position: 22% center;
+	cursor: pointer;
+}
+.temporary #js {
+	color: #ffffff;
+	background-color: #1f86d8;
+	background-image: url(../image/aparth.png);
+}
+.temporary #cm:hover ,
+.temporary #js:hover ,
+.temporary #yc:hover {
+	color: #ffffff;
+	background-color: #1f86d8;
+	background-image: url(../image/aparth.png);
+}
+.temporary .turnapart .middle {
+	border-left: 1px solid rgb(226,234,244); 
+	border-right: 1px solid rgb(226,234,244); 
+}

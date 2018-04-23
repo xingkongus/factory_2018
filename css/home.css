@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/**
+  * @created: 2018.04
+  * @author: kidultyx
+  * @version: 2
+  * @desc: 后工坊首页
+  */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: HanYiFont;
+}
+html,
+body{
+	width: 100%;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+
+footer{
+	width: 100%;
+	background-color: rgb(63,134,214);
+}
+
+.banner #picList {
+	width: 100%;
+	height: 600px;
+}
+.banner #picList .bannerpic{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	min-width: 920px;
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.banner #picList .pic1 {
+	background-image: url(../image/banner.jpg);
+}
+
+@media screen and (max-width: 900px) {
+	.homefoot {
+		padding: 120px 0;
+		font-size: 35px;
+	}
+	.homefoot .uslogo{
+		height: 100px;
+	}
+	.homefoot .copyright{
+		margin-top: 80px;
+		font-size: 25px;
+	}
+	article{
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 300px 300px 300px 0 0 0;
+	}
+	article section>a{
+		font-size: 40px;
+	}
+	article section .first {
+		display: block;
+		width: 100%;
+		height: 100%;
+		line-height: 300px;
+	}	
+	article section .second {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	article{
+		display: grid;
+		grid-template-columns: 33.33% 33.33% 33.33%;
+		grid-template-rows: 80px 176px;
+	}
+	article section>a{
+		font-size: 25px;
+	}
+
+	article section .first {
+		display: block;
+		width: 100%;
+		height: 100%;
+		line-height: 80px;
+	}
+	article section .second {
+		display: block;
+		width: 100%;
+		height: 100%;
+		line-height: 176px;
+	}
+}
+
+article ,
+header ,
+footer {
+	min-width: 920px;
+}
+
+article section{
+	text-align: center;
+}
+article section .first-1 ,
+article section .first-3 {
+	background-color: rgb(235,241,241);
+	color: rgb(149,160,161);
+}
+article section .first-2 {
+	background-color: rgb(206,214,216);
+	color: rgb(63,134,214);
+}
+article section .second-1 ,
+article section .second-3 {
+	background-color: rgb(227,233,233);
+	color: rgb(123,132,133);
+}
+article section .second-2 {
+	background-color: rgb(218,224,224);
+	color: rgb(63,134,214);
+}
+
+@font-face {
+	font-family: HanYiFont;
+	src: url('../fonts/HYQiHeiY2-35W.otf');
+}

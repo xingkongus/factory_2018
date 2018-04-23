@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>组织视频|后工坊-星空学生创新中心</title>
+
+	<link rel="stylesheet" type="text/css" href="css/gobal.css">
+	<link rel="stylesheet" type="text/css" href="css/classify.css">
+	<link rel="stylesheet" type="text/css" href="css/headfoot.css">
+
+	<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+</head>
+<body>
+	<div class="bigshowcontainer" id="bigshowcontainer"></div>
+	
+	<header class="other" id="spother"></header>
+
+	<article>
+		<section>
+			<div class="actshow" id="actshow">
+				<div class="stage" id="stage">
+					<iframe class="video_iframe" src="" allowfullscreen="" frameborder="0" ></iframe>
+				</div>
+				<div class="actinfor">
+					<p class="actname"></p>
+					<div class="infor-2">
+						<p class="actauthor"></p>
+						<p class="acttime"></p>
+					</div>
+					<p class="people infor-2"></p>
+					<p class="illstration"></p>
+				</div>
+			</div>
+			<div class="classify" id="classify">
+				<div class="guide">
+					<p class="heading">作品分类</p>
+					<div class="category" id="category"></div>
+					<!-- <div class="search">
+						<input type="" name="">
+					</div> -->
+				</div>
+				<div class="simple" id="simple" classify="0" page="1">
+					<div class="simpleitem">
+						<div class="content"></div>
+						<div class="iteminfor">
+							<p class="itemname"></p>
+							<p class="itemauthor"></p>
+						</div>
+					</div>
+					<div class="simpleitem">
+						<div class="content"></div>
+						<div class="iteminfor">
+							<p class="itemname"></p>
+							<p class="itemauthor"></p>
+						</div>
+					</div>
+					<div class="simpleitem">
+						<div class="content"></div>
+						<div class="iteminfor">
+							<p class="itemname"></p>
+							<p class="itemauthor"></p>
+						</div>
+					</div>
+					<div class="simpleitem">
+						<div class="content"></div>
+						<div class="iteminfor">
+							<p class="itemname"></p>
+							<p class="itemauthor"></p>
+						</div>
+					</div>
+					<div class="simpleitem">
+						<div class="content"></div>
+						<div class="iteminfor">
+							<p class="itemname"></p>
+							<p class="itemauthor"></p>
+						</div>
+					</div>
+					<div class="simpleitem">
+						<div class="content"></div>
+						<div class="iteminfor">
+							<p class="itemname"></p>
+							<p class="itemauthor"></p>
+						</div>
+					</div>
+					<div class="simpleitem">
+						<div class="content"></div>
+						<div class="iteminfor">
+							<p class="itemname"></p>
+							<p class="itemauthor"></p>
+						</div>
+					</div>
+					<div class="simpleitem">
+						<div class="content"></div>
+						<div class="iteminfor">
+							<p class="itemname"></p>
+							<p class="itemauthor"></p>
+						</div>
+					</div>
+					<div class="simpleitem">
+						<div class="content"></div>
+						<div class="iteminfor">
+							<p class="itemname"></p>
+							<p class="itemauthor"></p>
+						</div>
+					</div>
+					<div class="simpleitem">
+						<div class="content"></div>
+						<div class="iteminfor">
+							<p class="itemname"></p>
+							<p class="itemauthor"></p>
+						</div>
+					</div>
+					<div class="simpleitem">
+						<div class="content"></div>
+						<div class="iteminfor">
+							<p class="itemname"></p>
+							<p class="itemauthor"></p>
+						</div>
+					</div>
+					<div class="simpleitem">
+						<div class="content"></div>
+						<div class="iteminfor">
+							<p class="itemname"></p>
+							<p class="itemauthor"></p>
+						</div>
+					</div>
+				</div>
+				<div class="more" id="more">更多>>></div>
+			</div>
+		</section>
+		<aside class="little">
+			<div class="skip skip-1">
+				<p class="headline">街坊</p>
+				<p class="sub_headline">STREET INTERVIEW</p>
+			</div>
+			<div class="skip skip-2">
+				<p class="headline">星空直播</p>
+				<p class="sub_headline">XINGKONG LIVE</p>
+			</div>
+			<div class="skip skip-3">
+				<p class="headline">其他</p>
+				<p class="sub_headline">OTHER</p>
+			</div>
+		</aside> 
+	</article>
+
+	<footer></footer>
+
+	<script type="text/javascript">
+		var API_URL = "json/data-zzsp.json";
+		$.ajax({
+			url: API_URL,
+			async: false,
+			success: function(res) {
+				show = res.show;
+				classify = res.classify;
+				classifyname = res.classifyname;
+			},
+			dataType: "json"
+		});
+		
+		function putclassify(){
+			return classify;
+		}
+
+		$('.video_iframe').attr('src',show[0].src);
+		$(".actname").text(show[0].name);
+		$(".actauthor").text(show[0].author);
+		$(".acttime").text(show[0].time);
+		$(".people").text(show[0].people);
+		$(".illstration").text(show[0].text);
+
+	</script>
+	<script type="text/javascript" src="js/classify.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

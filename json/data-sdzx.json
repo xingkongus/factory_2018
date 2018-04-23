@@ -1,0 +1,640 @@
+{
+	"js" : {
+		"show" : [
+			{
+				"img": "image/item1.png",
+				"name": "技术研发中心",
+				"author": "web",
+				"time": "2017-5-9",
+				"text": "星空man星空man星空man星空man星空man星空man"
+			},
+			{
+				"img": "image/item2.png",
+				"name": "技术",
+				"author": "iOS",
+				"time": "2017-6-9",
+				"text": "星空man星空man星空man星空man星空man"
+			},
+			{
+				"img": "image/item3.png",
+				"name": "技术研发",
+				"author": "web",
+				"time": "2017-8-9",
+				"text": "星空man星空mann"
+			},
+			{
+				"img": "image/item4.png",
+				"name": "技术研发中心hhh",
+				"author": "Android",
+				"time": "2017-11-9",
+				"text": "星空man星空man星空man星空man"
+			}
+		],
+		"classifyname" : ["web","Android","iOS"],
+		"classify" :[
+			[
+				{
+					"content" : "image/item1.png",
+					"name" : "吴永达",
+					"author" : "1"
+				},
+				{
+					"content" : "image/item2.png",
+					"name" : "吴永达",
+					"author" : "1"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "张富远",
+					"author" : "1"
+				},
+				{
+					"content" : "image/item4.png",
+					"name" : "吴永达",
+					"author" : "1"
+				},
+				{
+					"content" : "image/item5.png",
+					"name" : "张富远",
+					"author" : "1"
+				},
+				{
+					"content" : "image/item1.png",
+					"name" : "吴永达",
+					"author" : "2"
+				},
+				{
+					"content" : "image/item2.png",
+					"name" : "吴永达",
+					"author" : "2"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "张富远",
+					"author" : "2"
+				},
+				{
+					"content" : "image/item4.png",
+					"name" : "吴永达",
+					"author" : "2"
+				},
+				{
+					"content" : "image/item5.png",
+					"name" : "张富远",
+					"author" : "2"
+				},
+				{
+					"content" : "image/item1.png",
+					"name" : "吴永达",
+					"author" : "3"
+				},
+				{
+					"content" : "image/item2.png",
+					"name" : "吴永达",
+					"author" : "3"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "张富远",
+					"author" : "3"
+				},
+				{
+					"content" : "image/item4.png",
+					"name" : "吴永达",
+					"author" : "3"
+				},
+				{
+					"content" : "image/item5.png",
+					"name" : "张富远",
+					"author" : "3"
+				},
+				{
+					"content" : "image/item1.png",
+					"name" : "吴永达",
+					"author" : "4"
+				},
+				{
+					"content" : "image/item2.png",
+					"name" : "吴永达",
+					"author" : "4"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "张富远",
+					"author" : "4"
+				},
+				{
+					"content" : "image/item4.png",
+					"name" : "吴永达",
+					"author" : "4"
+				},
+				{
+					"content" : "image/item5.png",
+					"name" : "张富远",
+					"author" : "4"
+				}
+			],
+			[
+				{
+					"content" : "image/item5.png",
+					"name" : "林睿",
+					"author" : "2016.7.6"
+				},
+				{
+					"content" : "image/item4.png",
+					"name" : "武纪怡",
+					"author" : "2016.8.6"
+				},
+				{
+					"content" : "image/item1.png",
+					"name" : "林睿",
+					"author" : "2016.9.6"
+				},
+				{
+					"content" : "image/item2.png",
+					"name" : "武纪怡",
+					"author" : "2016.10.6"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "林睿",
+					"author" : "2016.11.6"
+				}
+			],
+			[
+				{
+					"content" : "image/item4.png",
+					"name" : "黄培",
+					"author" : "2016.7.6"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "黄培",
+					"author" : "2016.8.6"
+				},
+				{
+					"content" : "image/item2.png",
+					"name" : "黄培",
+					"author" : "2016.9.6"
+				},
+				{
+					"content" : "image/item1.png",
+					"name" : "黄培",
+					"author" : "2016.10.6"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "黄培",
+					"author" : "2016.11.6"
+				}
+			]
+		],
+		"activityrecord": [
+			{
+				"time": "2018-1",
+				"name": "冬训营",
+				"illustation" : "技术研发中心技术研发中心技术研发中心技术研发中心技术研发中心",
+				"imgs": [
+					{"img":"image/item1.png"},
+					{"img":"image/item2.png"},
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"}
+				]
+			},
+			{
+				"time": "2018-2",
+				"name": "毕业季",
+				"illustation" : "技术研发中心技术研发中心技术研发中心技术研发中心技术研发中心",
+				"imgs": [
+					{"img":"image/item2.png"},
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"},
+					{"img":"image/item5.png"}
+				]
+			},
+			{
+				"time": "2018-3",
+				"name": "招新",
+				"illustation" : "技术研发中心技术研发中心技术研发中心技术研发中心技术研发中心",
+				"imgs": [
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"},
+					{"img":"image/item5.png"},
+					{"img":"image/item6.png"}
+				]
+			}
+		],
+		"workrecord" : [
+			{
+				"time": "2018-1",
+				"name": "冬训营",
+				"illustation" : "技术研发中心技术研发中心技术研发中心技术研发中心技术研发中心",
+				"imgs": [
+					{"img":"image/item1.png"},
+					{"img":"image/item2.png"},
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"}
+				]
+			},
+			{
+				"time": "2018-2",
+				"name": "毕业季",
+				"illustation" : "文化传媒中心文化传媒中心文化传媒中心文化传媒中心文化传媒中心",
+				"imgs": [
+					{"img":"image/item2.png"},
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"},
+					{"img":"image/item5.png"}
+				]
+			},
+			{
+				"time": "2018-3",
+				"name": "招新",
+				"illustation" : "运营策划中心运营策划中心运营策划中心运营策划中心运营策划中心",
+				"imgs": [
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"},
+					{"img":"image/item5.png"},
+					{"img":"image/item6.png"}
+				]
+			}
+		]
+	},
+	"cm" : {
+		"show" : [
+			{
+				"img": "image/item1.png",
+				"name": "文化传媒中心",
+				"author": "摄影",
+				"time": "2016-5-9",
+				"text": "星空man星空man星空man星空man星空man星空man"
+			},
+			{
+				"img": "image/item2.png",
+				"name": "文化传媒",
+				"author": "视觉",
+				"time": "2016-6-9",
+				"text": "星空man星空man星空man星空man星空man"
+			},
+			{
+				"img": "image/item3.png",
+				"name": "视频",
+				"author": "web",
+				"time": "2015-8-9",
+				"text": "星空man星空mann"
+			},
+			{
+				"img": "image/item4.png",
+				"name": "文化传媒中心hhhhhhhhh",
+				"author": "摄影",
+				"time": "2015-11-9",
+				"text": "星空man星空man星空man星空man"
+			},
+			{
+				"img": "image/item3.png",
+				"name": "视频",
+				"author": "web",
+				"time": "2015-12-19",
+				"text": "星空man星空mann"
+			}
+		],
+		"classifyname" : ["海报","UI设计","街坊视频","摄影视频"],
+		"classify" : [
+			[],
+			[],
+			[
+				{
+					"src" : "https://v.qq.com/iframe/player.html?vid=r0025jrz0aa&tiny=0&auto=0",
+					"name" : "吴永达",
+					"author" : "1"
+				}
+			],
+			[]
+		],
+		"activityrecord": [
+			{
+				"time": "2018-1",
+				"name": "冬训营",
+				"illustation" : "文化传媒中心文化传媒中心文化传媒中心文化传媒中心文化传媒中心",
+				"imgs": [
+					{"img":"image/item1.png"},
+					{"img":"image/item2.png"},
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"}
+				]
+			},
+			{
+				"time": "2018-2",
+				"name": "毕业季",
+				"illustation" : "文化传媒中心文化传媒中心文化传媒中心文化传媒中心文化传媒中心",
+				"imgs": [
+					{"img":"image/item2.png"},
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"},
+					{"img":"image/item5.png"}
+				]
+			},
+			{
+				"time": "2018-3",
+				"name": "招新",
+				"illustation" : "文化传媒中心文化传媒中心文化传媒中心文化传媒中心文化传媒中心",
+				"imgs": [
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"},
+					{"img":"image/item5.png"},
+					{"img":"image/item6.png"}
+				]
+			}
+		],
+		"workrecord" : [
+			{
+				"time": "2018-1",
+				"name": "冬训营",
+				"illustation" : "技术研发中心技术研发中心技术研发中心技术研发中心技术研发中心",
+				"imgs": [
+					{"img":"image/item1.png"},
+					{"img":"image/item2.png"},
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"}
+				]
+			},
+			{
+				"time": "2018-2",
+				"name": "毕业季",
+				"illustation" : "文化传媒中心文化传媒中心文化传媒中心文化传媒中心文化传媒中心",
+				"imgs": [
+					{"img":"image/item2.png"},
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"},
+					{"img":"image/item5.png"}
+				]
+			},
+			{
+				"time": "2018-3",
+				"name": "招新",
+				"illustation" : "运营策划中心运营策划中心运营策划中心运营策划中心运营策划中心",
+				"imgs": [
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"},
+					{"img":"image/item5.png"},
+					{"img":"image/item6.png"}
+				]
+			}
+		]
+	},
+	"yc" : {
+		"show" : [
+			{
+				"img": "image/item1.png",
+				"name": "运营策划中心",
+				"author": "产品",
+				"time": "2017-4-19",
+				"text": "星空man星空man星空man星空man星空man星空man"
+			},
+			{
+				"img": "image/item2.png",
+				"name": "运策",
+				"author": "新媒体",
+				"time": "2017-12-9",
+				"text": "星空man星空man星空man星空man星空man"
+			},
+			{
+				"img": "image/item3.png",
+				"name": "运营策划",
+				"author": "策划",
+				"time": "2016-8-9",
+				"text": "星空man星空mann"
+			}
+		],
+		"classifyname" : ["推文"],
+		"classify" :[
+			[
+				{
+					"content" : "image/item1.png",
+					"name" : "运策",
+					"author" : "1"
+				},
+				{
+					"content" : "image/item2.png",
+					"name" : "运策",
+					"author" : "1"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "运策",
+					"author" : "1"
+				},
+				{
+					"content" : "image/item4.png",
+					"name" : "运策",
+					"author" : "1"
+				},
+				{
+					"content" : "image/item5.png",
+					"name" : "运策",
+					"author" : "1"
+				},
+				{
+					"content" : "image/item1.png",
+					"name" : "运策",
+					"author" : "2"
+				},
+				{
+					"content" : "image/item2.png",
+					"name" : "运策",
+					"author" : "2"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "运策",
+					"author" : "2"
+				},
+				{
+					"content" : "image/item4.png",
+					"name" : "运策",
+					"author" : "2"
+				},
+				{
+					"content" : "image/item5.png",
+					"name" : "运策",
+					"author" : "2"
+				},
+				{
+					"content" : "image/item1.png",
+					"name" : "策划",
+					"author" : "3"
+				},
+				{
+					"content" : "image/item2.png",
+					"name" : "策划",
+					"author" : "3"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "策划",
+					"author" : "3"
+				},
+				{
+					"content" : "image/item4.png",
+					"name" : "策划",
+					"author" : "3"
+				},
+				{
+					"content" : "image/item5.png",
+					"name" : "策划",
+					"author" : "3"
+				},
+				{
+					"content" : "image/item1.png",
+					"name" : "策划",
+					"author" : "4"
+				},
+				{
+					"content" : "image/item2.png",
+					"name" : "策划",
+					"author" : "4"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "策划",
+					"author" : "4"
+				},
+				{
+					"content" : "image/item4.png",
+					"name" : "策划",
+					"author" : "4"
+				},
+				{
+					"content" : "image/item5.png",
+					"name" : "策划",
+					"author" : "4"
+				}
+			],
+			[
+				{
+					"content" : "image/item5.png",
+					"name" : "新媒体",
+					"author" : "2016.7.6"
+				},
+				{
+					"content" : "image/item4.png",
+					"name" : "新媒体",
+					"author" : "2016.8.6"
+				},
+				{
+					"content" : "image/item1.png",
+					"name" : "新媒体",
+					"author" : "2016.9.6"
+				},
+				{
+					"content" : "image/item2.png",
+					"name" : "新媒体",
+					"author" : "2016.10.6"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "新媒体",
+					"author" : "2016.11.6"
+				}
+			],
+			[
+				{
+					"content" : "image/item4.png",
+					"name" : "产品",
+					"author" : "2016.7.6"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "产品",
+					"author" : "2016.8.6"
+				},
+				{
+					"content" : "image/item2.png",
+					"name" : "产品",
+					"author" : "2016.9.6"
+				},
+				{
+					"content" : "image/item1.png",
+					"name" : "产品",
+					"author" : "2016.10.6"
+				},
+				{
+					"content" : "image/item3.png",
+					"name" : "产品",
+					"author" : "2016.11.6"
+				}
+			]
+		],
+		"activityrecord": [
+			{
+				"time": "2018-1",
+				"name": "冬训营",
+				"illustation" : "运营策划中心运营策划中心运营策划中心运营策划中心运营策划中心",
+				"imgs": [
+					{"img":"image/item1.png"},
+					{"img":"image/item2.png"},
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"}
+				]
+			},
+			{
+				"time": "2018-2",
+				"name": "毕业季",
+				"illustation" : "运营策划中心运营策划中心运营策划中心运营策划中心运营策划中心",
+				"imgs": [
+					{"img":"image/item2.png"},
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"},
+					{"img":"image/item5.png"}
+				]
+			},
+			{
+				"time": "2018-3",
+				"name": "招新",
+				"illustation" : "运营策划中心运营策划中心运营策划中心运营策划中心运营策划中心",
+				"imgs": [
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"},
+					{"img":"image/item5.png"},
+					{"img":"image/item6.png"}
+				]
+			}
+		],
+		"workrecord" : [
+			{
+				"time": "2018-1",
+				"name": "冬训营",
+				"illustation" : "技术研发中心技术研发中心技术研发中心技术研发中心技术研发中心",
+				"imgs": [
+					{"img":"image/item1.png"},
+					{"img":"image/item2.png"},
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"}
+				]
+			},
+			{
+				"time": "2018-2",
+				"name": "毕业季",
+				"illustation" : "文化传媒中心文化传媒中心文化传媒中心文化传媒中心文化传媒中心",
+				"imgs": [
+					{"img":"image/item2.png"},
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"},
+					{"img":"image/item5.png"}
+				]
+			},
+			{
+				"time": "2018-3",
+				"name": "招新",
+				"illustation" : "运营策划中心运营策划中心运营策划中心运营策划中心运营策划中心",
+				"imgs": [
+					{"img":"image/item3.png"},
+					{"img":"image/item4.png"},
+					{"img":"image/item5.png"},
+					{"img":"image/item6.png"}
+				]
+			}
+		]
+	}
+	
+}

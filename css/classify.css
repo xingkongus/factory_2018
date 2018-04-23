@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/**
+  * @created: 2018.03
+  * @author: kidultyx
+  * @version: 1.2
+  * @desc: 后工坊作品分类板块
+  */
+
+
+.classify{
+	margin: 70px 0 30px 0;
+	padding: 0 5%;
+	width: 90%;
+}
+
+.classify .guide{
+	width: 100%;
+	height: 50px;
+}
+.classify .guide .heading{
+	float: left;
+	margin-right: 40px;
+	height: 100%;
+	line-height: 50px;
+}
+.classify .guide .category{
+	float: left;
+	height: 100%;
+	color: rgb(69,87,102);
+	font-size: 18px;
+	line-height: 55px;
+}
+.classify .guide .category>p {
+	float: left;
+	margin-right: 25px;
+	cursor: pointer;
+}
+.classify .guide .category>p:hover {
+	color: #4290e9;
+}
+/*.classify .guide .search{
+	float: right;
+	height: 100%;
+	line-height: 55px;
+}*/
+.classify .guide .search input {
+	background-image: url(../image/search.png);
+	background-repeat: no-repeat;
+	background-position: 100% center;
+}
+.classify .guide .search input:hover {
+	background-image: url(../image/searchh.png);
+}
+
+.classify .simple{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -o-flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	padding: 0 1%;
+	width: 98%;
+}
+.classify .simple .simpleitem{
+	margin-top: 20px;
+	width: 135px;
+}
+.classify .simple .simpleitem .content{
+	width: 100%;
+	height: 135px;
+	background-color: rgb(198,198,198);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.classify .simple .simpleitem .iteminfor{
+	width: 100%;
+	height: 45px;
+	font-size: 12px;
+	background-color: rgb(239,239,239);
+	color: #000000;
+}
+.classify .simple .simpleitem:hover .iteminfor {
+	color: #6f9edb;
+}
+.classify .simple .simpleitem .iteminfor .itemname ,
+.classify .simple .simpleitem .iteminfor .itemauthor {
+	height: 20px;
+	line-height: 20px;
+}
+
+.classify .more{
+	margin: 35px 0 0 88%;
+	cursor: pointer;
+	color: rgb(69,87,102);
+}
+.classify .more>a {
+	font-size: 20px;
+	color: rgb(69,87,102);
+	text-decoration: none;
+}

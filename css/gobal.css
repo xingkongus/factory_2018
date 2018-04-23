@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+/**
+  * @created: 2018.03
+  * @author: kidultyx
+  * @version: 1.2
+  * @desc: 后工坊基本模块
+  */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: HanYiFont;
+}
+html,
+body{
+	width: 100%;
+	min-width: 1200px;
+	background-color: rgb(58,58,58);
+}
+
+article{
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	margin: 0 auto;
+	width: 80%;
+	background-color: rgb(255,255,255);
+}
+article section{
+	width: 70%;
+	background-color: rgb(255,255,255);
+}
+
+article section div .heading {
+	color: #4c6751;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: '微软雅黑';
+}
+.line{
+	position: absolute;
+	margin-top: 75px;
+	width: 80px;
+	height: 600px;
+	overflow: hidden;
+	background-image: url(../image/line.png);
+	background-size: 5px auto;
+	background-repeat: no-repeat;
+	background-position: 3px 0;
+}
+.line .linedot{
+	display: inline-block;
+	position: relative;
+	padding-left: 20px;
+	height: 25px;
+	font-size: 15px;
+	font-family: '微软雅黑';
+	line-height: 10px;
+	background-size: auto 12px;
+	background-image: url(../image/dot1.png);
+	background-repeat: no-repeat;
+}
+
+
+aside{
+	width: 30%;
+	background-color: rgb(255,255,255);
+}
+.little {
+	padding-top: 50px;
+}
+aside .skip {
+	padding-top: 50px;
+	width: 100%;
+	height: 100px;
+	background-size: auto 30%;
+	background-position: 100% center;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+}
+aside .skip>a {
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+aside .skip .headline {
+	font-family: HanYiFont;
+	font-size: 35px;
+	font-weight: bold;
+	color: rgb(255,206,36);
+}
+aside .skip .sub_headline {
+	font-family: inEnglish;
+	font-size: 15px;
+	color: rgb(177,166,129);
+}
+aside .actived {
+	width: 90%;
+	padding-left: 14%;
+	background-image: url(../image/yellow.png);
+	background-color: rgb(255,206,36);
+	text-align: left;
+}
+aside .actived .headline {
+	color: rgb(255,255,255);
+}
+
+.bigshowcontainer {
+	position: fixed;
+	width: 100%;
+	/*height: 100%;*/
+	background-color: rgba(110,110,110,.7);
+}
+.bigshowcontainer .showcontent {
+	margin: 100px auto 100px auto;
+	width: 80%;
+	min-width: 960px;
+	background-color: rgb(70,70,70);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@font-face {
+	font-family: HanYiFont;
+	src: url('../fonts/HYQiHeiY2-35W.otf');
+}
+
+@font-face {
+	font-family: inEnglish;
+	src: url('../fonts/BRLNSB.TTF'),
+		 url('../fonts/BRLNSDB.TTF'),
+		 url('../fonts/BRLNSR.TTF');
+}
+/*
+@font-face {
+	font-family: YaHeiFont;
+	src: url('../fonts/msyhl.ttc');
+}*/
+
+
+/* 作品展示 */
+
+.actshow{
+	padding-bottom: 60px;
+	width: 100%;
+	background-image: url(../image/divide.png);
+	background-position: 5% 100%;
+	background-repeat: no-repeat;
+	background-size: 80px 2px;
+}
+/*图片轮播*/
+.actshow .stage{
+	margin: -10px 0 0 -2%;
+	width: 102%;
+	background-color: rgba(210,210,210,.5);
+}
+.actshow .stage .single {
+	width: 100%;
+	height: 100%; 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.actshow .stage .choose .singledots {
+	position: absolute;
+	z-index: 9;
+	height: 15px;
+}
+.actshow .stage .choose .singledots>li {
+	margin-right: 8px;
+	width: 15px;
+	height: 100%;
+	float: left;
+	background-image: url(../image/stagedot.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	list-style: none;
+	cursor: pointer;
+}
+.actshow .stage .choose .singledots>li:first-child{
+	margin-left: 8px;
+	background-image: url(../image/stagedoth.png);
+}
+/*视频播放*/
+.actshow .stage .video_iframe {
+	width: 100%;
+	height: 100%;
+}
+
+/*信息*/
+.actshow .actinfor{
+	margin: 50px 5% 0 5%;
+	width: 90%;
+}
+.actshow .actinfor .actname{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: rgb(75,86,97);
+	font-size: 30px;
+	font-weight: bold;
+}
+.actshow .actinfor .infor-2{
+	margin-top: 10px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: rgb(69,87,102);
+	font-size: 20px;
+}
+.actshow .actinfor .infor-2 .actauthor,
+.actshow .actinfor .infor-2 .acttime{
+	margin-right: 30px;
+	float: left;
+}
+.actshow .actinfor .illstration{
+	margin-top: 25px;
+	width: 100%;
+	color: rgb(138,150,166);
+	font-size: 17px;
+}

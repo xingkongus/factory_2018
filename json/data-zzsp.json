@@ -1,0 +1,24 @@
+{
+	"show" : [
+			{
+				"src": "https://v.qq.com/iframe/player.html?vid=q0025jank30&tiny=0&auto=0",
+				"name": "技术研发中心",
+				"author": "web",
+				"time": "2017-5-9",
+				"people": "android、iOS",
+				"text": "星空man星空man星空man星空man星空man星空man"
+			}
+		],		
+	"classifyname" : ["街坊视频","星空直播","其他"],
+	"classify" :[ 
+		[
+			{
+					"src" : "https://v.qq.com/iframe/player.html?vid=r0025jrz0aa&tiny=0&auto=0",
+					"name" : "吴永达",
+					"author" : "1"
+				}
+		],
+		[],
+		[]
+	]
+}

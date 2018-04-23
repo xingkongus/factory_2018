@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/**
+  * @created: 2018.03
+  * @author: kidultyx
+  * @version: 1.2
+  * @desc: 后工坊记录板块
+  */
+
+
+.record {
+	margin: 60px 0 30px 0;
+	padding: 0 5% 60px 5%;
+	width: 90%;
+}
+.activity {
+	background-image: url(../image/divide.png);
+	background-position: 5% 100%;
+	background-repeat: no-repeat;
+	background-size: 80px 2px;
+}
+.record .heading {
+	width: 100%;
+	font-size: 25px;
+	font-family: '微软雅黑';
+	color: rgb(76,87,97);
+}
+
+.record .recordshow {
+	margin: 40px 0 0 15%;
+	width: 85%;
+	height: 715px;
+	overflow-y: scroll;
+}
+.record .recordshow .repart {
+	margin-bottom: 30px;
+	width: 100%;
+	flex: auto;
+}
+.record .recordshow .repart {
+	flex: auto;
+}
+.record .recordshow .repart .name {
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #3b434c;
+}
+.record .recordshow .repart .illustation {
+	margin-top: 10px;
+	width: 100%;
+	font-size: 15px;
+	color: rgb(140,153,165);
+}
+.record .recordshow .repart .mediashow {
+	margin: 20px 0;
+	width: 100%;
+	height: 180px;
+}
+
+.record .recordshow .repart .mediashow .prearrow ,
+.record .recordshow .repart .mediashow .nexarrow {
+	margin-top: 50px;
+	width: 12%;
+	height: 50px;
+	float: left;
+	background-size: 50% auto;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.record .recordshow .repart .mediashow .prearrow {
+	background-position: 75% center;
+	background-image: url(../image/recordbutton_left.png);
+}
+.record .recordshow .repart .mediashow .prearrow:hover {
+	background-image: url(../image/recordbutton_left-h.png);
+}
+.record .recordshow .repart .mediashow .nexarrow {
+	background-position: 25% center;
+	background-image: url(../image/recordbutton_right.png);
+}
+.record .recordshow .repart .mediashow .nexarrow:hover {
+	background-image: url(../image/recordbutton_right-h.png);
+}
+
+.record .recordshow .repart .mediashow .imgshow {
+	width: 76%;
+	height: 100%;
+	float: left;
+}
+.record .recordshow .repart .mediashow .imgshow>div {
+	float: left;
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgba(210,210,210,.5);
+}
+.record .recordshow .repart .mediashow .imgshow .smallimg{
+	margin-top: 30px;
+	width: 23%;
+	height: 50%;
+}
+.record .recordshow .repart .mediashow .imgshow .bigimg{
+	margin: 0 4%;
+	width: 46%;
+	height: 90%;
+}

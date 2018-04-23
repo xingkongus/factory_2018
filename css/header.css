@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/**
+  * @created: 2018.03
+  * @author: kidultyx
+  * @version: 1.2
+  * @desc: 后工坊导航栏
+  */
+
+
+ /*home 首页*/
+ /*other 其他分页*/
+.home a,
+.other a{
+	display: inline-block;
+	text-decoration: none;
+}
+.home ,
+.other {
+	width: 100%;
+	font-family: HanYiFont;
+}
+.home {
+	position: absolute;
+	z-index: 9;
+	height: 110px;
+	background-color: rgba(143,143,143,.6);
+}
+.other {
+	margin-bottom: 50px;
+	height: 55px;
+	background-color: rgb(63,134,214);
+}
+.ushref {
+	margin-left: 10%;
+	float: left;
+	width: 10%;
+	height: 100%;
+	background-image: url(../image/whiteuslogo.png);
+	background-size: auto 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+nav {
+	margin-left: 30px;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+nav>a {
+	margin-right: 15px;
+	height: 100%;
+	text-align: center;
+	color: rgb(255,255,255);
+}
+.home nav>a {
+	font-size: 30px;
+	line-height: 110px;
+}
+.other nav>a {
+	font-size: 19px;
+	line-height: 55px;
+}
+
+/* 尾栏 */
+
+footer {
+	padding: 50px 0 30px 0;
+	background-color: rgb(63,134,214);
+	font-family: HanYiFont;
+}
+.uslogo{
+	margin: 0 auto;
+	width: 200px;
+	height: 50px;
+	background-image: url(../image/whiteuslogo.png);
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.copyright{
+	margin-top: 40px;
+	width: 100%;
+	height: 60px;
+	font-size: 15px;
+	color: rgb(255,255,255);
+	text-align: center;
+}
