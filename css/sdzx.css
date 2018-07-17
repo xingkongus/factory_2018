@@ -11,6 +11,7 @@
 	margin : 60px auto 0 auto;
 	width: 80%;
 	height: 80px;
+	box-shadow: 10px -5px 20px 5px #d7f8fa;
 }
 .temporary .turnapart {
 	width: 100%;
@@ -32,7 +33,7 @@
 	background-position: 22% center;
 	cursor: pointer;
 }
-.temporary #js {
+/*.temporary #js {
 	color: #ffffff;
 	background-color: #1f86d8;
 	background-image: url(../image/aparth.png);
@@ -43,7 +44,7 @@
 	color: #ffffff;
 	background-color: #1f86d8;
 	background-image: url(../image/aparth.png);
-}
+}*/
 .temporary .turnapart .middle {
 	border-left: 1px solid rgb(226,234,244); 
 	border-right: 1px solid rgb(226,234,244); 

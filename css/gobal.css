@@ -16,7 +16,10 @@ html,
 body{
 	width: 100%;
 	min-width: 1200px;
-	background-color: rgb(58,58,58);
+	/*background-color: rgb(58,58,58);*/
+	background-image: url(../image/bg_big.jpg);
+	/*background-repeat: no-repeat;*/
+	background-size: 100% auto;
 }
 
 article{
@@ -28,7 +31,12 @@ article{
 	margin: 0 auto;
 	width: 80%;
 	background-color: rgb(255,255,255);
+	/*background-image: url(../image/bg_article.png);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	box-shadow: 10px -5px 20px 5px #d7f8fa;
 }
+
 article section{
 	width: 70%;
 	background-color: rgb(255,255,255);
@@ -90,24 +98,28 @@ aside .skip>a {
 }
 aside .skip .headline {
 	font-family: HanYiFont;
-	font-size: 35px;
-	font-weight: bold;
-	color: rgb(255,206,36);
+	font-size: 40px;
+	color: #00a3ff;
 }
 aside .skip .sub_headline {
-	font-family: inEnglish;
-	font-size: 15px;
-	color: rgb(177,166,129);
+	/*font-family: inEnglish;*/
+	font-size: 20px;
+	color: #00a3ff;
 }
 aside .actived {
-	width: 90%;
-	padding-left: 14%;
-	background-image: url(../image/yellow.png);
-	background-color: rgb(255,206,36);
+	width: 97%;
+	padding-left: 8%;
+	background-image: url(../image/nowpartArrow.png);
+	background-color: #00a3ff;
 	text-align: left;
+	box-shadow: 10px -5px 20px 5px #d7f8fa;
 }
 aside .actived .headline {
-	color: rgb(255,255,255);
+	color: #fff;
+	font-size: 50px;
+}
+aside .actived .sub_headline {
+	color: #fff;
 }
 
 .bigshowcontainer {
