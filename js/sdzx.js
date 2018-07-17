@@ -15,26 +15,39 @@
 
   // aside锚点跳转
 	function getName() {
-			var name1 = [$("#actshow"),$("#activity"),$("#work")];
-			return name1;
-		}
+		var name1 = [$("#actshow"),$("#activity"),$("#work")];
+		return name1;
+	}
+
+  // 是否轮播
+	var whetherlunbo = 'yes';
 
   // 切换中心
-	$('.apartment').bind('mouseenter',function() {
-		$('.apartment').css('color','rgb(114,136,162)').css('background-color','#ffffff').css('background-image','url(image/apart.png)');
-		$(this).css('color','#ffffff').css('background-color','#ffce24').css('background-image','url(image/aparth.png)');
-	});
+	// $('.apartment').bind('mouseenter',function() {
+	// 	if($(this).attr('clickflag') == 'no') {
+	// 		$(this).attr('clickflag','focus');
+	// 		$(this).css('color','#ffffff').css('background-color','#ffce24').css('background-image','url(image/aparth.png)');
+	// 	}
+	// }).bind('mouseleave',function() {
+	// 	if($(this).attr('clickflag') == 'focus') {
+	// 		$(this).css('color','rgb(114,136,162)').css('background-color','#ffffff').css('background-image','url(image/apart.png)').attr('clickflag','no');
+	// 	}
+	// });
 
 	var size;
 	var simple = $('#simple');
 	var sizea = parseInt(simple.css('width')) * 0.2026;
 	var sizeb = parseInt(simple.css('width')) * 0.4202;
 	$('.apartment').click(function() {
+		// $('.apartment').attr('clickflag','no');
+		// $(this).attr('clickflag','yes');
 		$('#simple').attr('page',1);
 
 		// 改变CSS
-		$('.apartment').css('color','rgb(114,136,162)').css('background-color','#ffffff').css('background-image','url(image/apart.png)');
-		$(this).css('color','#ffffff').css('background-color','#1f86d8').css('background-image','url(image/aparth.png)');
+		// $('.apartment').css('color','rgb(114,136,162)').css('background-color','#ffffff').css('background-image','url(image/apart.png)');
+		// $(this).css('color','#ffffff').css('background-color','#1f86d8').css('background-image','url(image/aparth.png)');
+		$('.apartment').css('color','rgb(114,136,162)');
+		$(this).css('color','#007ae4');
 
 		var apart = $(this).attr('id');
 		var showaccount;

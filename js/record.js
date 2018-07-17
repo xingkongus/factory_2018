@@ -1,4 +1,4 @@
-$(document).ready( function(){
+// $(document).ready( function(){
   // 加载默认数据	
 	function showusual(len,item,data) {
 		for( var i = 0; i < len; i++) {
@@ -76,8 +76,8 @@ $(document).ready( function(){
 
 
   // 时光轴样式
-	function timeline(scollitem,data,linefather) {
-		for( var j = 0; j < alen; j++) {
+	function timeline(scollitem,data,linefather,l) {
+		for( var j = 0; j < l; j++) {
 			linefather.find('#line').append('<span class="linedot" dot="' + j + '">' + data[j].time + '</span>');
 		}
 		var kid = scollitem.children();
@@ -96,9 +96,9 @@ $(document).ready( function(){
 		});
 	}
 
-	timeline($(acrecordshow),activityrecord,$('.activity'));
-	timeline($(worecordshow),workrecord,$('.work'));
+	timeline($(acrecordshow),activityrecord,$('.activity'),alen);
+	timeline($(worecordshow),workrecord,$('.work'),alen);
 
 
 
-});
+// });

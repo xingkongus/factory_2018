@@ -30,13 +30,13 @@ $(document).ready(function() {
 	function FixedAside() {
 		var st = parseInt($(window).scrollTop());
 		var fot = parseInt($("footer").offset().top);
-		var width = parseInt($("article").css('width')) * 0.32;
+		var width = parseInt($("article").css('width')) * 0.3;
 		var left = parseInt($("section").css('width')) + parseInt($("article").offset().left);
-		var ah = parseInt($("section").css('height'));
+		// var ah = parseInt($("section").css('height'));
 
 		if( st >= ot && ( st <= ( fot - 700) ) ) {
 			$("aside").fadeIn(600,function() {
-				$("aside").css('position','fixed').css('width',width).css('height',ah).css('top',0).css('left',left).css('padding-top',0);
+				$("aside").css('position','fixed').css('width',width).css('top',0).css('left',left).css('padding-top',0);
 			});
 		}else if( st > ( fot - 700 ) ) {
 			$("aside").fadeOut(600);
@@ -52,7 +52,10 @@ $(document).ready(function() {
 		var name = getName();
 		var top1 = name[0].offset().top - 80;
 		var top2 = name[1].offset().top - 80;
-		var top3 = name[2].offset().top - 80;
+		var top3 = 99999;
+		if(typeof(name[2]) != 'undefined') {
+			top3 = name[2].offset().top - 80;
+		}
 		$('.skip').removeClass('actived');
 		var st = $(window).scrollTop();
 		if(st < top2) {
@@ -73,7 +76,7 @@ $(document).ready(function() {
 		FixedAside();
 	});
 
-  // aside锚点跳转
+  // aside锚点点击跳转
 	function turnSkip(itAside) {
 		// $('.skip').removeClass('actived');
 		$("html,body").animate({
@@ -154,10 +157,12 @@ $(document).ready(function() {
 	$(".acttime").text(show[index].time);
 	$(".illstration").text(show[index].text);
 
-	$('#stage').mouseout(function() {
-		autoplay(showlen,1,0,1,$('.actshow'),$('#singledots'),6,$(show),2500);
-	}).mouseover(function() {
-		stopplay($('.actshow'));
-	});
+	if( whetherlunbo == 'yes') {
+		$('#stage').mouseout(function() {
+			autoplay(showlen,1,0,1,$('.actshow'),$('#singledots'),6,$(show),2500);
+		}).mouseover(function() {
+			stopplay($('.actshow'));
+		});
+	}
 
 });
