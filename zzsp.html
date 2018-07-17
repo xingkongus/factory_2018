@@ -129,18 +129,18 @@
 			</div>
 		</section>
 		<aside class="little">
-			<div class="skip skip-1">
-				<p class="headline">街坊</p>
-				<p class="sub_headline">STREET INTERVIEW</p>
+			<div class="skip actived skip-1" skip="1">
+				<p class="headline">视频展示</p>
+				<p class="sub_headline"></p>
 			</div>
-			<div class="skip skip-2">
-				<p class="headline">星空直播</p>
-				<p class="sub_headline">XINGKONG LIVE</p>
+			<div class="skip skip-2" skip="2">
+				<p class="headline">作品分类</p>
+				<p class="sub_headline"> </p>
 			</div>
-			<div class="skip skip-3">
+	<!-- 		<div class="skip skip-3">
 				<p class="headline">其他</p>
 				<p class="sub_headline">OTHER</p>
-			</div>
+			</div> -->
 		</aside> 
 	</article>
 
@@ -163,13 +163,20 @@
 			return classify;
 		}
 
+		function getName() {
+			var name3 = [$("#actshow"),$("#classify")];
+			return name3;
+		}
+
 		$('.video_iframe').attr('src',show[0].src);
 		$(".actname").text(show[0].name);
 		$(".actauthor").text(show[0].author);
 		$(".acttime").text(show[0].time);
 		$(".people").text(show[0].people);
 		$(".illstration").text(show[0].text);
-
+		
+	  // 是否轮播
+		var whetherlunbo = 'no';
 	</script>
 	<script type="text/javascript" src="js/classify.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
